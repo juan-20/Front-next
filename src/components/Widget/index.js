@@ -3,8 +3,8 @@ import styled from 'styled-components';
 const Widget = styled.div`
 margin-top: 24px;
 margin-bottom: 24px;
-border: 1px solid #4CAF50;
-background: #1C1814;
+border: 1px solid #FFE74C;
+background: #000;
 border-radius: 4px;
 overflow: hidden;
 
@@ -20,7 +20,6 @@ p {
   line-height: 1;
 }
 `;
-
 
 Widget.Content = styled.div`
 padding: 24px 32px 32px 32px;
