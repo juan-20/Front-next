@@ -8,7 +8,12 @@ const GlobalStyle = createGlobalStyle`
  * {
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
+    >a{
+    text-decoration:none; 
+    color: #fff;
   }
+  }
+
   body {
     margin: 0;
     padding: 0;
