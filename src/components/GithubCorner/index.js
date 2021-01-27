@@ -22,12 +22,22 @@ const SVGWrapper = styled.svg`
     40%,80%{transform:rotate(10deg)}
   }
   @media (max-width:500px){
+    right: -4rem;
     &:hover .octo-arm{
       animation:none
     }
     & .octo-arm{
       animation:octocat-wave 560ms ease-in-out
     }
+  }
+  @media (max-width:470px){
+    right: -3rem;
+  }
+  @media (max-width:470px){
+    right: -2rem;
+  }
+  @media (max-width:415px){
+    right: 0rem;
   }
 `;
 
