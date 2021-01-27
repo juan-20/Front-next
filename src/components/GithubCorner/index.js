@@ -31,13 +31,24 @@ const SVGWrapper = styled.svg`
     }
   }
   @media (max-width:470px){
-    right: -3rem;
+    right: -55px;
   }
-  @media (max-width:470px){
-    right: -2rem;
+  @media (max-width:460px){
+    right: -48px;
+  }
+  
+  @media (max-width:440px){
+    right: -38px;
+  }
+
+  @media (max-width:430px){
+    right: -32px;
   }
   @media (max-width:415px){
-    right: 0rem;
+    right: -25px;
+  }
+  @media (max-width:390px){
+    right: 0px;
   }
 `;
 
