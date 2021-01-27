@@ -8,6 +8,7 @@ import GitHubCorner from '../src/components/GithubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 // import db from '../db.json';
 import Widget from '../src/components/Widget/index';
+import Input from '../src/components/Input/index';
 
 // const BackgroundImage = styled.div`
 //   background: #1E212B;
@@ -44,14 +45,16 @@ export default function Home() {
             <h1>Star Wars</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
+            <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
               console.log('teste');
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
+              <Input
+                name="nomedousuario"
+                value={name}
+                onChange={(infosDoEvento) => {
                 // state
                 // name = infosDoEvento.target.value;
                   console.log(name);
@@ -61,7 +64,7 @@ export default function Home() {
               />
 
               <button type="submit" disabled={name.length === 0}>
-                Jogar
+                Jogar:
                 {' '}
                 {name}
               </button>

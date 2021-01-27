@@ -4,25 +4,23 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuyYxoKU5EaEknmAok_7qzTDLPPFDjl7Q-Qg&usqp=CAU",
+        "title": "Você se parece com esta garota?",
+        "description": " 🕵️ ",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "n.",
+          "s."
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://www.nme.com/wp-content/uploads/2020/10/Wallows-header-by-Nikoli-Partiyeli-1.jpg",
+        "title": "Já ouviu wallows hoje?",
+        "description": " 🤔 ",
         "answer": 0,
         "alternatives": [
-            "background: rgb(131,58,180);",
-            "background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);"
+            "s.",
+            "sim."
         ]
       }
     ],
