@@ -155,7 +155,7 @@ export default function QuizPage() {
 
         {screenState === screenStates.RESULT && 
         <div>
-          <a style={text-decoration:none; color: #fff} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
           Você ganhou, clique aqui para receber seu premio :3
           </a>
         </div>}
