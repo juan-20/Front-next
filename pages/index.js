@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-
+import React from 'react';
+import styled from 'styled-components';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GithubCorner';
+import Input from '../src/components/Input/index';
 import QuizBackground from '../src/components/QuizBackground';
 // import db from '../db.json';
 import Widget from '../src/components/Widget/index';
-import Input from '../src/components/Input/index';
+
 
 // const BackgroundImage = styled.div`
 //   background: #1E212B;
@@ -69,16 +69,16 @@ export default function Home() {
                 {name}
               </button>
             </form>
-            <p>Este é meu site que é um Quiz sobre star wars </p>
+            <p>Este é meu site que que futuramente vai ter um quizz </p>
 
           </Widget.Content>
         </Widget>
 
         <Widget>
-          <Widget.Content>
+          {/* <Widget.Content>
             <h1>Quizes da galera</h1>
             <p>Alguns quiz da galera que fez a imersão:</p>
-          </Widget.Content>
+          </Widget.Content> */}
         </Widget>
 
         <Footer />
